@@ -1,2 +1,2 @@
 # CTE0001-Elemental-C-Programing
-C, C++
+Elemental programming with C, C++ lecture (Hansung Univ)
