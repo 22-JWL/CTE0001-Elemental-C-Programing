@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
+
 int main (void) //SHRT_MAX는 limits.h에 포함되어 있다.
 {//short:-32768~ +32767
     short s_money = SHRT_MAX;//최대값으로 초기화 한다. 32767
