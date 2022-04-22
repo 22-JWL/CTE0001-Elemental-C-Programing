@@ -4,7 +4,9 @@ int main (void){
     long integer;
     printf("정수를 입력하시오 : ");
     scanf("%ld", &integer);
+    printf("출력 : ");
     do{
+        
         printf("%ld", integer%10);
         integer = integer/10;
 
