@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (void){
 
-    int integer, sum;
+    int integer, sum=0;
     printf("n의 값을 입력하시오");
     scanf("%d", &integer);
 
