@@ -7,7 +7,7 @@
             int tthou, thou, hun, ten ,fst;
 
             //입력
-            printf("다섯 자리의 수를 입력하시오");
+            printf("다섯 자리의 수를 입력하시오 : ");
             scanf("%d", &input);
 
                 //세금 출력 + 만, 천, 백, 십, 일 단위구분

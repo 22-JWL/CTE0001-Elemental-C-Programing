@@ -7,7 +7,7 @@
 
             //알파벳 문자 입력
             printf("알파벳 문자를 입력하시오 : ");
-            scanf("%s", &alpha);
+            scanf("%c", &alpha);
 
             //소문자 대문자로 변환
             alpha -= 32;
