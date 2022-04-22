@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <math.h>// 전처리기 
+#include <math.h>// 지수 계산위해 전처리기 추가
     int main (void)
         {//함수의 시작
             float x, z, y;//변수의 선언과 정의
 
-            //반복문 시작
+            //시그마 1~20 까지 계산 
             for(x = 1; x<21; x++){
                 for(z= 1; z<21; z++){
                     y += sqrt(3*x*x*x+(z*z*z-1));

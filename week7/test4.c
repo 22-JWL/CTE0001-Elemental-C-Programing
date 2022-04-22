@@ -10,7 +10,7 @@
             printf("다섯 자리의 수를 입력하시오");
             scanf("%d", &input);
 
-                //세금 출력
+                //세금 출력 + 만, 천, 백, 십, 일 단위구분
                 tthou = input / 10000;
                 thou = input % 10000 / 1000;
                 hun = input % 1000 / 100;

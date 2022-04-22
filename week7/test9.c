@@ -1,11 +1,13 @@
 #include <stdio.h>// 전처리기. 
     int main (void)
         {/*함수의 시작*/ 
-        
-        int sum, edu, in, mil, eng, age;
-        label:
-        sum=0;
+    
+        int sum, edu, in, mil, eng, age;//변수의 선언과 정의
+        label:// 잘못입력했으면 돌아오기
 
+        sum=0;//잘못입력했으면 sum=0으로 초기화
+
+        //0, 1로 이지선다, case문으로 점수 추가, 잘못입력했으면goto문으로 되돌아가기
         printf("학력은? 고졸:0 대졸:1 = ");
         scanf("%d", &edu);
         
