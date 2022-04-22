@@ -4,7 +4,7 @@
 
         double height, weight, norweight, sum;
 
-        printf("당신의 키와 몸무계를 입력하시오 키, 몸무게");
+        printf("당신의 키와 몸무게를 입력하시오 키, 몸무게");
         scanf("%lf %lf", &height, &weight);
 
         norweight= (height-100)*0.9;
